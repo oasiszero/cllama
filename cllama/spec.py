@@ -1,0 +1,71 @@
+GPU_MEMORY = {
+    "nvidia-tesla-t4": 16,
+    "nvidia-tesla-v100": 16,
+    "nvidia-tesla-p100": 16,
+    "nvidia-tesla-p4": 8,
+    "nvidia-tesla-k80": 12,
+    "nvidia-tesla-a100": 40,
+    "nvidia-tesla-a100-80gb": 80,
+    "nvidia-tesla-a10g": 24,
+    "nvidia-l4": 16,
+}
+
+
+AWS_INSTANCE_TYPES = {
+    "p2.xlarge": {
+        "vCPU": 4,
+        "memory": 61,
+        "GPU": 1,
+        "GPU Memory": 12,
+        "On-Demand": 0.9,
+        "Spot": 0.288,
+    },
+    "p2.8xlarge": {
+        "vCPU": 32,
+        "memory": 488,
+        "GPU": 8,
+        "GPU Memory": 96,
+        "On-Demand": 7.2,
+        "Spot": 2.304,
+    },
+    "p2.16xlarge": {
+        "vCPU": 64,
+        "memory": 732,
+        "GPU": 16,
+        "GPU Memory": 192,
+        "On-Demand": 14.4,
+        "Spot": 4.608,
+    },
+    "p3.2xlarge": {
+        "vCPU": 8,
+        "memory": 61,
+        "GPU": 1,
+        "GPU Memory": 16,
+        "On-Demand": 1.26,
+        "Spot": 0.4032,
+    },
+    "p3.8xlarge": {
+        "vCPU": 32,
+        "memory": 244,
+        "GPU": 4,
+        "GPU Memory": 64,
+        "On-Demand": 5.04,
+        "Spot": 1.6128,
+    },
+    "p3.16xlarge": {
+        "vCPU": 64,
+        "memory": 488,
+        "GPU": 8,
+        "GPU Memory": 64,
+        "On-Demand": 10.08,
+        "Spot": 3.2256,
+    },
+    "g4dn.xlarge": {
+        "vCPU": 4,
+        "memory": 16,
+        "GPU": 1,
+        "GPU Memory": 16,
+        "On-Demand": 0.526,
+        "Spot": 0.168,
+    },
+}
